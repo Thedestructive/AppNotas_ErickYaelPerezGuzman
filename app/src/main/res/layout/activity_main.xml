@@ -9,7 +9,6 @@
 
     <!--recycler view for displaying all notes-->
 
-    <!--fab for adding a new note-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/notesRV"

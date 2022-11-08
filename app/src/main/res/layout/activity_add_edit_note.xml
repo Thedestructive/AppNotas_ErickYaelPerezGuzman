@@ -7,7 +7,7 @@
     android:background="@color/black_shade_1"
     tools:context=".AddEditNoteActivity">
 
-    <!--edit text for note title-->
+    <!--Edita el titulo de la nota-->
 
     <EditText
         android:id="@+id/idEdtNoteName"
@@ -20,11 +20,11 @@
         android:hint="Titulo de la Nota"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
-    <!--edit text for note description-->
+    <!--Edita el texto de la nota-->
 
     <EditText
         android:id="@+id/idEdtNoteDesc"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/idBtn"
         android:layout_below="@id/idEdtNoteName"
@@ -42,7 +42,7 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
-    <!--button for saving and updating a note-->
+    <!--Actualiza la nota-->
 
     <Button
         android:id="@+id/idBtn"
@@ -60,23 +60,6 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         app:backgroundTint="#000000" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/idFAB2"
-        android:layout_width="70dp"
-        android:layout_height="80dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginBottom="649dp"
-        android:src="?attr/actionModeCloseDrawable"
-        app:backgroundTint="@color/btnAdd"
-        app:tint="@color/black_shade_1" />
 
 
 </RelativeLayout>
